@@ -1,0 +1,70 @@
+Circuit: * C:\Users\unnat\OneDrive\Desktop\Anveshan.asc
+
+Error on line 8 : v0 n009 0 v
+	 Unknown parameter "v"
+V3: Removing PWL point (0.006,23.6504)
+V3: Removing PWL point (1.452,-5.95009)
+V3: Removing PWL point (1.942,25.8504)
+Input_eletrode_voltage: Removing PWL point (0.326,1.25e-006)
+Input_eletrode_voltage: Removing PWL point (0.572,-3.75e-006)
+Input_eletrode_voltage: Removing PWL point (0.577,-4.35e-006)
+Input_eletrode_voltage: Removing PWL point (0.606,-1.55e-006)
+Input_eletrode_voltage: Removing PWL point (0.994,1.55e-006)
+Input_eletrode_voltage: Removing PWL point (1.555,3.65e-006)
+WARNING: Less than two connections to node FECG.  This node is used by V3.
+V0: Missing value, assumed 0V @ DC
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 40.1515%
+Source Step = 47.7273%
+Source Step = 55.303%
+Source Step = 62.8788%
+Source Step = 70.4545%
+vernier = 0.375
+Source Step = 81.0606%
+Source Step = 92.4242%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Wed Mar 12 12:30:30 2025
+Total elapsed time: 2.646 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 28421
+traniter = 25858
+tranpoints = 9112
+accept = 9047
+rejected = 65
+matrix size = 365
+fillins = 747
+solver = Normal
+Thread vector: 37.5/16.8[6] 10.1/5.3[6] 9.8/4.8[6] 2.8/4.9[1]  2592/500
+Matrix Compiler1: 44.18 KB object code size  20.8/9.0/[3.7]
+Matrix Compiler2: 42.97 KB object code size  13.7/15.2/[3.7]
+
